@@ -1,0 +1,69 @@
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Source Code Pro", monospace;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  margin: 3rem auto;
+  max-width: 40rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+label,
+input {
+  margin-bottom: 0.5rem;
+  display: block;
+  width: 100%;
+}
+
+input {
+  border: 1px solid #fdcb6e;
+  outline: 1px solid #fdcb6e;
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #fdcb6e;
+  color: #fff;
+  border: 1px solid #fdcb6e;
+  padding: 0.5rem 0.8rem;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  outline: 1px solid #fdcb6e;
+  border: 1px solid #fdcb6e;
+  background: #fff;
+  color: #fdcb6e;
+}
