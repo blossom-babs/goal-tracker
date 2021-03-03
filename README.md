@@ -28,4 +28,4 @@ In the project directory, you can run:
 
 ## Live project 
 
-[Goal Tracker](https://githack.netlify.app/)
+[Goal Tracker](https://babs-goaltracker.netlify.app/)
